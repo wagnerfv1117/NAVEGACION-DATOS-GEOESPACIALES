@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_62dcc6e0e3118bc45797d2d8bc11e9ca {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_62dcc6e0e3118bc45797d2d8bc11e9ca" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_62dcc6e0e3118bc45797d2d8bc11e9ca = L.map(
+                "map_62dcc6e0e3118bc45797d2d8bc11e9ca",
+                {
+                    center: [4.5709, -74.2973],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Mapa del viaje Neiva - Florencia",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5c9ba094debb023b9c60be8ff6dc4ec2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+            var marker_f76271a846c70d4ff53d1b17c28a79af = L.marker(
+                [2.88861254894517, -75.2756215501869],
+                {}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+        var popup_56f9fc86fe662c18e5f2a1d0e1158fdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e7e9b0c66da427e69ccc548997aa87d = $(`<div id="html_5e7e9b0c66da427e69ccc548997aa87d" style="width: 100.0%; height: 100.0%;">Neiva - Huila: Lo mejor es no entrar a neiva, coger la variante </div>`)[0];
+                popup_56f9fc86fe662c18e5f2a1d0e1158fdb.setContent(html_5e7e9b0c66da427e69ccc548997aa87d);
+            
+        
+
+        marker_f76271a846c70d4ff53d1b17c28a79af.bindPopup(popup_56f9fc86fe662c18e5f2a1d0e1158fdb)
+        ;
+
+        
+    
+    
+            var marker_e8028d2698e7b95a3b3704b479e9d23b = L.marker(
+                [2.779265199968648, -75.26019436239584],
+                {}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+        var popup_3079a0f0bb452a4c3c3105b68a6dd2ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5ed983f0c9e52a560589b03b547c89 = $(`<div id="html_1e5ed983f0c9e52a560589b03b547c89" style="width: 100.0%; height: 100.0%;">Neiva - Rivera: Aquí pueden dormir</div>`)[0];
+                popup_3079a0f0bb452a4c3c3105b68a6dd2ff.setContent(html_1e5ed983f0c9e52a560589b03b547c89);
+            
+        
+
+        marker_e8028d2698e7b95a3b3704b479e9d23b.bindPopup(popup_3079a0f0bb452a4c3c3105b68a6dd2ff)
+        ;
+
+        
+    
+    
+            var marker_2f8c10955620b5df95410abbe84232a8 = L.marker(
+                [2.3792324348146567, -75.55390403991343],
+                {}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+        var popup_4d5e5451685451e447a166d352fcb49c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59954c5ab1a5f5e96ef3f512e5662919 = $(`<div id="html_59954c5ab1a5f5e96ef3f512e5662919" style="width: 100.0%; height: 100.0%;">Rivera - Gigante: Pa ver la mano del gigante</div>`)[0];
+                popup_4d5e5451685451e447a166d352fcb49c.setContent(html_59954c5ab1a5f5e96ef3f512e5662919);
+            
+        
+
+        marker_2f8c10955620b5df95410abbe84232a8.bindPopup(popup_4d5e5451685451e447a166d352fcb49c)
+        ;
+
+        
+    
+    
+            var marker_c6beb2d6f82d87f03b07de2647671b11 = L.marker(
+                [2.3792324348146567, -75.55390403991343],
+                {}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+        var popup_3deca3311063920e9b475be40086acab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56497793762aa93e3990e72b52f58cac = $(`<div id="html_56497793762aa93e3990e72b52f58cac" style="width: 100.0%; height: 100.0%;">Gigante - Garzón: tomar la variante</div>`)[0];
+                popup_3deca3311063920e9b475be40086acab.setContent(html_56497793762aa93e3990e72b52f58cac);
+            
+        
+
+        marker_c6beb2d6f82d87f03b07de2647671b11.bindPopup(popup_3deca3311063920e9b475be40086acab)
+        ;
+
+        
+    
+    
+            var marker_9db86d0f76f2616fa78a552066f5fcf3 = L.marker(
+                [2.0590593455245, -75.7906211306375],
+                {}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+        var popup_abbe8a36db4ef61e991f963c298a3a97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74ae50292b349a273ab43f19db24fe3f = $(`<div id="html_74ae50292b349a273ab43f19db24fe3f" style="width: 100.0%; height: 100.0%;">Garzón - Altamira</div>`)[0];
+                popup_abbe8a36db4ef61e991f963c298a3a97.setContent(html_74ae50292b349a273ab43f19db24fe3f);
+            
+        
+
+        marker_9db86d0f76f2616fa78a552066f5fcf3.bindPopup(popup_abbe8a36db4ef61e991f963c298a3a97)
+        ;
+
+        
+    
+    
+            var marker_392de7beb487d7b923b9799e44a08352 = L.marker(
+                [1.620704953731443, -75.61012014111849],
+                {}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+        var popup_478424f4ad9a486bfbd470431eee0113 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3937348d07d1fd0eb21ec8843fd3fdd6 = $(`<div id="html_3937348d07d1fd0eb21ec8843fd3fdd6" style="width: 100.0%; height: 100.0%;">Altamira - Florencia</div>`)[0];
+                popup_478424f4ad9a486bfbd470431eee0113.setContent(html_3937348d07d1fd0eb21ec8843fd3fdd6);
+            
+        
+
+        marker_392de7beb487d7b923b9799e44a08352.bindPopup(popup_478424f4ad9a486bfbd470431eee0113)
+        ;
+
+        
+    
+    
+            var poly_line_76f12012607f97147a372a6880d232af = L.polyline(
+                [[2.88861254894517, -75.2756215501869], [2.779265199968648, -75.26019436239584]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+            var poly_line_4a90f4c47736f6243e489063e7fd2ae3 = L.polyline(
+                [[2.779265199968648, -75.26019436239584], [2.3792324348146567, -75.55390403991343]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+            var poly_line_16ac5d968bd13c4a7778f9a512c235c9 = L.polyline(
+                [[2.3792324348146567, -75.55390403991343], [2.3792324348146567, -75.55390403991343]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+            var poly_line_e1d0589399e8989f681bc4db2072a11d = L.polyline(
+                [[2.3792324348146567, -75.55390403991343], [2.0590593455245, -75.7906211306375]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+    
+            var poly_line_81b394a807b3c631a1097063fe4c584a = L.polyline(
+                [[2.0590593455245, -75.7906211306375], [1.620704953731443, -75.61012014111849]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_62dcc6e0e3118bc45797d2d8bc11e9ca);
+        
+</script>
+</html>

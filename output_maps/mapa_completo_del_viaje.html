@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c9775e5f805d8b809af6ec0def98fd1a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c9775e5f805d8b809af6ec0def98fd1a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c9775e5f805d8b809af6ec0def98fd1a = L.map(
+                "map_c9775e5f805d8b809af6ec0def98fd1a",
+                {
+                    center: [4.5709, -74.2973],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Mapa del viaje Monter\u00eda - Florencia",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_526ec3284ca309dd860bf80c70fa6c50 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var marker_104db1e1d46b3f11fb74d78008fc6f72 = L.marker(
+                [8.755324462831581, -75.89909395591066],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_d7ae888d6d11fc68937bfd68a478e7d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_404759cf21ec8c0b910ce1e72dd91e77 = $(`<div id="html_404759cf21ec8c0b910ce1e72dd91e77" style="width: 100.0%; height: 100.0%;">Punto de salida: Montería - (Córdoba)</div>`)[0];
+                popup_d7ae888d6d11fc68937bfd68a478e7d7.setContent(html_404759cf21ec8c0b910ce1e72dd91e77);
+            
+        
+
+        marker_104db1e1d46b3f11fb74d78008fc6f72.bindPopup(popup_d7ae888d6d11fc68937bfd68a478e7d7)
+        ;
+
+        
+    
+    
+            var marker_2a2f25fad644c0f2791666418d22b5a2 = L.marker(
+                [7.959675942418199, -75.20655830545536],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_9011035bea8184fb2bb97e6ad9c41c5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c2fe42fc47e9d9ec2ddb65eec15d1d5 = $(`<div id="html_6c2fe42fc47e9d9ec2ddb65eec15d1d5" style="width: 100.0%; height: 100.0%;">Caucasia - Antioquia</div>`)[0];
+                popup_9011035bea8184fb2bb97e6ad9c41c5e.setContent(html_6c2fe42fc47e9d9ec2ddb65eec15d1d5);
+            
+        
+
+        marker_2a2f25fad644c0f2791666418d22b5a2.bindPopup(popup_9011035bea8184fb2bb97e6ad9c41c5e)
+        ;
+
+        
+    
+    
+            var marker_8d88e6bc2f16b2c96f7a8aae4ed2a829 = L.marker(
+                [6.968731316464168, -75.42429392333105],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_7b15734f83f9ef95e1ed5490cb6f9e8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_074b5bcc9c6b842d40d73cde17cd66cb = $(`<div id="html_074b5bcc9c6b842d40d73cde17cd66cb" style="width: 100.0%; height: 100.0%;">Yarumal- Antioquia</div>`)[0];
+                popup_7b15734f83f9ef95e1ed5490cb6f9e8a.setContent(html_074b5bcc9c6b842d40d73cde17cd66cb);
+            
+        
+
+        marker_8d88e6bc2f16b2c96f7a8aae4ed2a829.bindPopup(popup_7b15734f83f9ef95e1ed5490cb6f9e8a)
+        ;
+
+        
+    
+    
+            var marker_00a361bc6cf490ed4aa68d6fbee831f3 = L.marker(
+                [6.640164024759098, -75.44995757161223],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_db0dec553cb075a5c5408295aade999c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa9e1b71099339384c3c6f51360bbb0f = $(`<div id="html_aa9e1b71099339384c3c6f51360bbb0f" style="width: 100.0%; height: 100.0%;">Santa Rosa de Osos - Antioquia (PETISCO, BUEN PUNTO PARA COMER)</div>`)[0];
+                popup_db0dec553cb075a5c5408295aade999c.setContent(html_aa9e1b71099339384c3c6f51360bbb0f);
+            
+        
+
+        marker_00a361bc6cf490ed4aa68d6fbee831f3.bindPopup(popup_db0dec553cb075a5c5408295aade999c)
+        ;
+
+        
+    
+    
+            var marker_53d69c196f7da06ddf9c96534121820c = L.marker(
+                [6.484208100715497, -75.38705101192579],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_9e5d166a366e33290673403d0c3ffa69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1833e68ed1737736143bc874b4d1a277 = $(`<div id="html_1833e68ed1737736143bc874b4d1a277" style="width: 100.0%; height: 100.0%;">Don Matías - Antioquia</div>`)[0];
+                popup_9e5d166a366e33290673403d0c3ffa69.setContent(html_1833e68ed1737736143bc874b4d1a277);
+            
+        
+
+        marker_53d69c196f7da06ddf9c96534121820c.bindPopup(popup_9e5d166a366e33290673403d0c3ffa69)
+        ;
+
+        
+    
+    
+            var marker_825ecbf659daa1e445c6a93bcc4cfef4 = L.marker(
+                [6.437977017260511, -75.33846369281257],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_6dd2d90f2353442f977e373b82e1d161 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f439bd3e1556121f877c52845bdda818 = $(`<div id="html_f439bd3e1556121f877c52845bdda818" style="width: 100.0%; height: 100.0%;">Barbosa - Antioquia</div>`)[0];
+                popup_6dd2d90f2353442f977e373b82e1d161.setContent(html_f439bd3e1556121f877c52845bdda818);
+            
+        
+
+        marker_825ecbf659daa1e445c6a93bcc4cfef4.bindPopup(popup_6dd2d90f2353442f977e373b82e1d161)
+        ;
+
+        
+    
+    
+            var marker_ee8624b360f1df0f526d47f002ed8e81 = L.marker(
+                [6.536159257233253, -75.07590844325095],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_6c6e1cfd6f166697ac4c32bb4e4729af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51719556734466c82ad714fb1d38e823 = $(`<div id="html_51719556734466c82ad714fb1d38e823" style="width: 100.0%; height: 100.0%;">Cisneros - Antioquia</div>`)[0];
+                popup_6c6e1cfd6f166697ac4c32bb4e4729af.setContent(html_51719556734466c82ad714fb1d38e823);
+            
+        
+
+        marker_ee8624b360f1df0f526d47f002ed8e81.bindPopup(popup_6c6e1cfd6f166697ac4c32bb4e4729af)
+        ;
+
+        
+    
+    
+            var marker_25b65d04644a18a036671e6bca85a770 = L.marker(
+                [6.49512366948926, -74.82311824525492],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_164edcb940057932d0d97d4471b5c73e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd613f82cae3bcc01a856da00eea55ff = $(`<div id="html_bd613f82cae3bcc01a856da00eea55ff" style="width: 100.0%; height: 100.0%;">San José del Nus- Antioquia</div>`)[0];
+                popup_164edcb940057932d0d97d4471b5c73e.setContent(html_bd613f82cae3bcc01a856da00eea55ff);
+            
+        
+
+        marker_25b65d04644a18a036671e6bca85a770.bindPopup(popup_164edcb940057932d0d97d4471b5c73e)
+        ;
+
+        
+    
+    
+            var marker_56a2d64d3fc4793c6a582fa819f66ec6 = L.marker(
+                [6.488196019575648, -74.40495625795943],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_0521e44175f34c7248f00944461062da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_929d255ac1fcada2b27851a12b923233 = $(`<div id="html_929d255ac1fcada2b27851a12b923233" style="width: 100.0%; height: 100.0%;"><a href='https://www.evernote.com/shard/s233/sh/51cf6e26-b292-9364-1350-37f41e6097bc/AECBFyKUtMRzgr3zZZtzCmqXVMm_A_nYYoTiq0g3UyvyI4U5_K5uPWHsgg'> Para dormir:Puerto Berrío - Antioquia (Hotel la Mansión)</a></div>`)[0];
+                popup_0521e44175f34c7248f00944461062da.setContent(html_929d255ac1fcada2b27851a12b923233);
+            
+        
+
+        marker_56a2d64d3fc4793c6a582fa819f66ec6.bindPopup(popup_0521e44175f34c7248f00944461062da)
+        ;
+
+        
+    
+    
+            var marker_b8ac45adc7495675226f2ce33e976e25 = L.marker(
+                [5.488746143065222, -74.63858245136448],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_0b94bc5c3e0d9e6192f8e780b1b26375 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41da9b61520277b88385b7daac52fd9e = $(`<div id="html_41da9b61520277b88385b7daac52fd9e" style="width: 100.0%; height: 100.0%;">La Dorada-Caldas, Redoma el barrista, tomar el sentido como quien va para Honda</div>`)[0];
+                popup_0b94bc5c3e0d9e6192f8e780b1b26375.setContent(html_41da9b61520277b88385b7daac52fd9e);
+            
+        
+
+        marker_b8ac45adc7495675226f2ce33e976e25.bindPopup(popup_0b94bc5c3e0d9e6192f8e780b1b26375)
+        ;
+
+        
+    
+    
+            var marker_c2ddb7c67fb55cb76ee87e75f23cdbc3 = L.marker(
+                [5.435400841999828, -74.63796503396352],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_c321ee3368f7520122fb7d758a7c4636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3019250bf23494107de060f9de7da031 = $(`<div id="html_3019250bf23494107de060f9de7da031" style="width: 100.0%; height: 100.0%;">Variante la Dorada - Honda, para no entrar a la Dorada</div>`)[0];
+                popup_c321ee3368f7520122fb7d758a7c4636.setContent(html_3019250bf23494107de060f9de7da031);
+            
+        
+
+        marker_c2ddb7c67fb55cb76ee87e75f23cdbc3.bindPopup(popup_c321ee3368f7520122fb7d758a7c4636)
+        ;
+
+        
+    
+    
+            var marker_68e8095f351a436c9fbd8f9dbd265e21 = L.marker(
+                [5.417872113502243, -74.6869345437117],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_b6f68bedace9d4fbb09ef817abe8ce89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c01c266ef7f6a54ba7d25d11df77e2 = $(`<div id="html_d8c01c266ef7f6a54ba7d25d11df77e2" style="width: 100.0%; height: 100.0%;">Via hacia Honda- Tolima</div>`)[0];
+                popup_b6f68bedace9d4fbb09ef817abe8ce89.setContent(html_d8c01c266ef7f6a54ba7d25d11df77e2);
+            
+        
+
+        marker_68e8095f351a436c9fbd8f9dbd265e21.bindPopup(popup_b6f68bedace9d4fbb09ef817abe8ce89)
+        ;
+
+        
+    
+    
+            var marker_48bd588af0f0a9ab836bd0bfded41517 = L.marker(
+                [5.2028492238222235, -74.72678037931378],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_25a6183f7abbad339fd0fbb0cc75f4d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e43b19159e72d5f5bfd27a481cae9611 = $(`<div id="html_e43b19159e72d5f5bfd27a481cae9611" style="width: 100.0%; height: 100.0%;">Honda- Tolima</div>`)[0];
+                popup_25a6183f7abbad339fd0fbb0cc75f4d2.setContent(html_e43b19159e72d5f5bfd27a481cae9611);
+            
+        
+
+        marker_48bd588af0f0a9ab836bd0bfded41517.bindPopup(popup_25a6183f7abbad339fd0fbb0cc75f4d2)
+        ;
+
+        
+    
+    
+            var marker_da2e6fad87f593f379c03cd27910e51a = L.marker(
+                [4.904707950219132, -74.72896144383307],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_8284c287ac96c1fe25310c547e8c3641 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fc7886dc6d6f8d9f5b7493d5435432d = $(`<div id="html_6fc7886dc6d6f8d9f5b7493d5435432d" style="width: 100.0%; height: 100.0%;">Cambao- Tolima</div>`)[0];
+                popup_8284c287ac96c1fe25310c547e8c3641.setContent(html_6fc7886dc6d6f8d9f5b7493d5435432d);
+            
+        
+
+        marker_da2e6fad87f593f379c03cd27910e51a.bindPopup(popup_8284c287ac96c1fe25310c547e8c3641)
+        ;
+
+        
+    
+    
+            var marker_c9e76cd4fcebd34750de90bc20594f71 = L.marker(
+                [4.5144206583382, -74.78916851937976],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_7342012fc152f3a100c0799aa61fdecb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0ba5d9f41fa18f2fabc99baa3f6524c = $(`<div id="html_a0ba5d9f41fa18f2fabc99baa3f6524c" style="width: 100.0%; height: 100.0%;">Guataquí - Cundinamarca</div>`)[0];
+                popup_7342012fc152f3a100c0799aa61fdecb.setContent(html_a0ba5d9f41fa18f2fabc99baa3f6524c);
+            
+        
+
+        marker_c9e76cd4fcebd34750de90bc20594f71.bindPopup(popup_7342012fc152f3a100c0799aa61fdecb)
+        ;
+
+        
+    
+    
+            var marker_dc089a8434d41c4e2804750f3f1f7852 = L.marker(
+                [4.247093126905553, -74.87166362438998],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_6cbb81b4680465e9e10a14b90e78caf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_360a7ce94e6d8471838137499c83de4a = $(`<div id="html_360a7ce94e6d8471838137499c83de4a" style="width: 100.0%; height: 100.0%;">Variante chichoral, romboy via Girardot - El espinal - Tolima</div>`)[0];
+                popup_6cbb81b4680465e9e10a14b90e78caf6.setContent(html_360a7ce94e6d8471838137499c83de4a);
+            
+        
+
+        marker_dc089a8434d41c4e2804750f3f1f7852.bindPopup(popup_6cbb81b4680465e9e10a14b90e78caf6)
+        ;
+
+        
+    
+    
+            var marker_5a974f0a51c13cd782b50ff7ee661e95 = L.marker(
+                [4.2528816227203, -74.83031101101027],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_b86254a208af63a6f6059506c6f803cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7681d9a2cbfabb68928585fc7953f26 = $(`<div id="html_f7681d9a2cbfabb68928585fc7953f26" style="width: 100.0%; height: 100.0%;">Girar a la derercha hacia el espinal - tolima</div>`)[0];
+                popup_b86254a208af63a6f6059506c6f803cf.setContent(html_f7681d9a2cbfabb68928585fc7953f26);
+            
+        
+
+        marker_5a974f0a51c13cd782b50ff7ee661e95.bindPopup(popup_b86254a208af63a6f6059506c6f803cf)
+        ;
+
+        
+    
+    
+            var marker_c1efea80eb8ee2b0c2920f7cff5a44ba = L.marker(
+                [4.15996457324261, -74.8787309405236],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_e1ba6c82d23d5470ea0d34d1d9e31667 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46274e52f0fab0f94f240aaa9e6ef3f0 = $(`<div id="html_46274e52f0fab0f94f240aaa9e6ef3f0" style="width: 100.0%; height: 100.0%;">El Espinal - tolima</div>`)[0];
+                popup_e1ba6c82d23d5470ea0d34d1d9e31667.setContent(html_46274e52f0fab0f94f240aaa9e6ef3f0);
+            
+        
+
+        marker_c1efea80eb8ee2b0c2920f7cff5a44ba.bindPopup(popup_e1ba6c82d23d5470ea0d34d1d9e31667)
+        ;
+
+        
+    
+    
+            var marker_b336ea53e8e654d0453554c848239704 = L.marker(
+                [4.15996457324261, -74.8787309405236],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_254c7d98e3e45b32831fa9917de94b8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76928de33070a65d835d96f5d166c531 = $(`<div id="html_76928de33070a65d835d96f5d166c531" style="width: 100.0%; height: 100.0%;">El Guamo- tolima</div>`)[0];
+                popup_254c7d98e3e45b32831fa9917de94b8e.setContent(html_76928de33070a65d835d96f5d166c531);
+            
+        
+
+        marker_b336ea53e8e654d0453554c848239704.bindPopup(popup_254c7d98e3e45b32831fa9917de94b8e)
+        ;
+
+        
+    
+    
+            var marker_5af20862ceaa27440da5fc169351cd27 = L.marker(
+                [3.9216358107612623, -75.02133201379685],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_b227de21bb10e0ce110698267e4de73d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_539de7d20846c3447558f0901439a0e6 = $(`<div id="html_539de7d20846c3447558f0901439a0e6" style="width: 100.0%; height: 100.0%;">Saldaña - tolima</div>`)[0];
+                popup_b227de21bb10e0ce110698267e4de73d.setContent(html_539de7d20846c3447558f0901439a0e6);
+            
+        
+
+        marker_5af20862ceaa27440da5fc169351cd27.bindPopup(popup_b227de21bb10e0ce110698267e4de73d)
+        ;
+
+        
+    
+    
+            var marker_221127b2a300ed74c6bdd21d79d1f05f = L.marker(
+                [3.6275041675331545, -75.09970626842593],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_e768650bf29396e3e0ddba8ef941adff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f1d54258b64d889929170fcd39f3eff = $(`<div id="html_7f1d54258b64d889929170fcd39f3eff" style="width: 100.0%; height: 100.0%;">Natagaima- tolima</div>`)[0];
+                popup_e768650bf29396e3e0ddba8ef941adff.setContent(html_7f1d54258b64d889929170fcd39f3eff);
+            
+        
+
+        marker_221127b2a300ed74c6bdd21d79d1f05f.bindPopup(popup_e768650bf29396e3e0ddba8ef941adff)
+        ;
+
+        
+    
+    
+            var marker_90078652f27b2d036a30ff1c5ef47cfa = L.marker(
+                [2.88861254894517, -75.2756215501869],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_9b4ea63785306e1e779b2abb9c68f9ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c27a965168296c7b9dcc39555e0379f8 = $(`<div id="html_c27a965168296c7b9dcc39555e0379f8" style="width: 100.0%; height: 100.0%;">Neiva - Huila: Lo mejor es no entrar a neiva, coger la variante </div>`)[0];
+                popup_9b4ea63785306e1e779b2abb9c68f9ef.setContent(html_c27a965168296c7b9dcc39555e0379f8);
+            
+        
+
+        marker_90078652f27b2d036a30ff1c5ef47cfa.bindPopup(popup_9b4ea63785306e1e779b2abb9c68f9ef)
+        ;
+
+        
+    
+    
+            var marker_38ba1fdb362d179e5d3b86c2e53efe38 = L.marker(
+                [2.779265199968648, -75.26019436239584],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_4f77533bbab63253323558addc651708 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef582a706411bde611c1db922b03f123 = $(`<div id="html_ef582a706411bde611c1db922b03f123" style="width: 100.0%; height: 100.0%;">Neiva - Rivera: Aquí pueden dormir</div>`)[0];
+                popup_4f77533bbab63253323558addc651708.setContent(html_ef582a706411bde611c1db922b03f123);
+            
+        
+
+        marker_38ba1fdb362d179e5d3b86c2e53efe38.bindPopup(popup_4f77533bbab63253323558addc651708)
+        ;
+
+        
+    
+    
+            var marker_23718b90809cafbc74299c7fe588bdb8 = L.marker(
+                [2.3792324348146567, -75.55390403991343],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_43ac9785c9268a9624957c83a4993aca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d837e81e045d2f21b1a83af13d26af9f = $(`<div id="html_d837e81e045d2f21b1a83af13d26af9f" style="width: 100.0%; height: 100.0%;">Rivera - Gigante: Pa ver la mano del gigante</div>`)[0];
+                popup_43ac9785c9268a9624957c83a4993aca.setContent(html_d837e81e045d2f21b1a83af13d26af9f);
+            
+        
+
+        marker_23718b90809cafbc74299c7fe588bdb8.bindPopup(popup_43ac9785c9268a9624957c83a4993aca)
+        ;
+
+        
+    
+    
+            var marker_608d9187f893fabf555977add8249aef = L.marker(
+                [2.3792324348146567, -75.55390403991343],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_f31918c18cccb2b20032cb7237cb52e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12c9062c3a1d034117b59a85d5bc4422 = $(`<div id="html_12c9062c3a1d034117b59a85d5bc4422" style="width: 100.0%; height: 100.0%;">Gigante - Garzón: tomar la variante</div>`)[0];
+                popup_f31918c18cccb2b20032cb7237cb52e6.setContent(html_12c9062c3a1d034117b59a85d5bc4422);
+            
+        
+
+        marker_608d9187f893fabf555977add8249aef.bindPopup(popup_f31918c18cccb2b20032cb7237cb52e6)
+        ;
+
+        
+    
+    
+            var marker_c4453d37232a8b28cf7b7df6e3a66481 = L.marker(
+                [2.0590593455245, -75.7906211306375],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_16c235cb3985e5ae9125153eb4f44e78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2505abd7cfb19788a9a03a5c0387697 = $(`<div id="html_a2505abd7cfb19788a9a03a5c0387697" style="width: 100.0%; height: 100.0%;">Garzón - Altamira</div>`)[0];
+                popup_16c235cb3985e5ae9125153eb4f44e78.setContent(html_a2505abd7cfb19788a9a03a5c0387697);
+            
+        
+
+        marker_c4453d37232a8b28cf7b7df6e3a66481.bindPopup(popup_16c235cb3985e5ae9125153eb4f44e78)
+        ;
+
+        
+    
+    
+            var marker_9ab89b20dbe14091d1207c062d41f5e2 = L.marker(
+                [1.620704953731443, -75.61012014111849],
+                {}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+        var popup_c1f3d7a5cebd2f8f9f32ddfd7629729f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c98149817b7ec068a118241ec1cc127 = $(`<div id="html_0c98149817b7ec068a118241ec1cc127" style="width: 100.0%; height: 100.0%;">Altamira - Florencia</div>`)[0];
+                popup_c1f3d7a5cebd2f8f9f32ddfd7629729f.setContent(html_0c98149817b7ec068a118241ec1cc127);
+            
+        
+
+        marker_9ab89b20dbe14091d1207c062d41f5e2.bindPopup(popup_c1f3d7a5cebd2f8f9f32ddfd7629729f)
+        ;
+
+        
+    
+    
+            var poly_line_495bdf017b5a68af07c6f11b73f2984d = L.polyline(
+                [[8.755324462831581, -75.89909395591066], [7.959675942418199, -75.20655830545536]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_0b05f0fa81d3c8b6e449f3dd9e38b72d = L.polyline(
+                [[7.959675942418199, -75.20655830545536], [6.968731316464168, -75.42429392333105]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_5371ca2df82f952c5c05a5134dfa9b0b = L.polyline(
+                [[6.968731316464168, -75.42429392333105], [6.640164024759098, -75.44995757161223]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_b3ced496eb77c114322e71d5f38e094c = L.polyline(
+                [[6.640164024759098, -75.44995757161223], [6.484208100715497, -75.38705101192579]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_34bf5e547a53f980cdce352b91c3d7e0 = L.polyline(
+                [[6.484208100715497, -75.38705101192579], [6.437977017260511, -75.33846369281257]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_22352cf0bd6450fb6699127ef53682ac = L.polyline(
+                [[6.437977017260511, -75.33846369281257], [6.536159257233253, -75.07590844325095]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_955b2dc2b91054650459b90e153bebd4 = L.polyline(
+                [[6.536159257233253, -75.07590844325095], [6.49512366948926, -74.82311824525492]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_8585191d706bba9cb18a9fcdb8f8fb19 = L.polyline(
+                [[6.49512366948926, -74.82311824525492], [6.488196019575648, -74.40495625795943]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_9c29249e5125e64f2f815096e5dbff9b = L.polyline(
+                [[6.488196019575648, -74.40495625795943], [5.488746143065222, -74.63858245136448]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_79fb44caeb04c6cf73f0cc10bc4efb83 = L.polyline(
+                [[5.488746143065222, -74.63858245136448], [5.435400841999828, -74.63796503396352]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_76ec92cabf4901cfbacf3a47c30c292f = L.polyline(
+                [[5.435400841999828, -74.63796503396352], [5.417872113502243, -74.6869345437117]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_8e765519349e7b313e172c2459a50ab8 = L.polyline(
+                [[5.417872113502243, -74.6869345437117], [5.2028492238222235, -74.72678037931378]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_d49885ad6df46ff6d69a8ff656f61ae9 = L.polyline(
+                [[5.2028492238222235, -74.72678037931378], [4.904707950219132, -74.72896144383307]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_998200a9b516e6cffe97d6f6f7ff6e72 = L.polyline(
+                [[4.904707950219132, -74.72896144383307], [4.5144206583382, -74.78916851937976]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_57131df53fd470f0af20d23d827c7da2 = L.polyline(
+                [[4.5144206583382, -74.78916851937976], [4.247093126905553, -74.87166362438998]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_6dc3f3eb087f960d2f75a285beeba932 = L.polyline(
+                [[4.247093126905553, -74.87166362438998], [4.2528816227203, -74.83031101101027]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_d5de256e4ea5b893f4e154d190dbbd06 = L.polyline(
+                [[4.2528816227203, -74.83031101101027], [4.15996457324261, -74.8787309405236]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_209aa729f1cc25736bbcb2f9a4df54c7 = L.polyline(
+                [[4.15996457324261, -74.8787309405236], [4.15996457324261, -74.8787309405236]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_5ee473038ac829b401268bbf1bcda5df = L.polyline(
+                [[4.15996457324261, -74.8787309405236], [3.9216358107612623, -75.02133201379685]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_364b120c549c3335c08cc2776bc297b8 = L.polyline(
+                [[3.9216358107612623, -75.02133201379685], [3.6275041675331545, -75.09970626842593]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_bd28459c02d53fdabba1bb4133174884 = L.polyline(
+                [[3.6275041675331545, -75.09970626842593], [2.88861254894517, -75.2756215501869]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_e6c5a57a21dcac63640c8b5d3478de39 = L.polyline(
+                [[2.88861254894517, -75.2756215501869], [2.779265199968648, -75.26019436239584]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_603df4148bd43751b46b873fc42cf6ed = L.polyline(
+                [[2.779265199968648, -75.26019436239584], [2.3792324348146567, -75.55390403991343]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_888062fb1ce231ef0457f216435d2290 = L.polyline(
+                [[2.3792324348146567, -75.55390403991343], [2.3792324348146567, -75.55390403991343]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_b2911549761560d4ea162fddb5d659d4 = L.polyline(
+                [[2.3792324348146567, -75.55390403991343], [2.0590593455245, -75.7906211306375]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+    
+            var poly_line_174b19df486b211234847d016a7af404 = L.polyline(
+                [[2.0590593455245, -75.7906211306375], [1.620704953731443, -75.61012014111849]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c9775e5f805d8b809af6ec0def98fd1a);
+        
+</script>
+</html>
